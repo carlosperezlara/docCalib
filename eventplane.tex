@@ -60,7 +60,7 @@ Each arm consists of 64 detectors. Figure \ref{fig.bbcgeo} depicts the geometric
 Following equation \ref{eq.q} the BBC-based Q vectors can be constructed expanding the sum over the 64 detectors and using the center of each detector for the determination of $\varphi_i$ and the calibrated ADC signal of each detector as weight $\omega_i$.
 
 {\bf Q$_n$ accuracy.}
-The BBC accuracy of the measured the Q vector can be quantified by measuring the resolution of its $\Psi_n$ counterpart.
+The BBC accuracy for the measured Q vector can be quantified by measuring the resolution of its $\Psi_n$ counterpart.
 There are several methods to do that. In this analysis we rely on measuring the resolution of the detector by using subevents within the same detector. This is done in order to prevent using other detector with different detector azimuthal non-uniformities or, worse yet, the coupling of longitudinal expansion effects.
 For the BBC this can be done since each arm side can be separated into two independent sub-detector each equally sensitive to the event multiplicity and its flow and having approximately the same geometrical configuration.
 The resolution can then be computed using the methods in \cite{PhysRevC.77.034904}. Namely for the strongest contribution:
@@ -70,7 +70,84 @@ The resolution can then be computed using the methods in \cite{PhysRevC.77.03490
 
 \section{Run16 dAu 200 GeV}
 \begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD0.pdf}
+\label{fig.bbc.qc0}
+\caption{Non-normalized coefficients for Q$_1$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD1.pdf}
+\label{fig.bbc.qc1}
+\caption{Non-normalized coefficients for Q$_2$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD2.pdf}
+\label{fig.bbc.qc2}
+\caption{Non-normalized coefficients for Q$_3$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD3.pdf}
+\label{fig.bbc.qc3}
+\caption{Non-normalized coefficients for Q$_4$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD4.pdf}
+\label{fig.bbc.qc4}
+\caption{Non-normalized coefficients for Q$_5$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD5.pdf}
+\label{fig.bbc.qc5}
+\caption{Non-normalized coefficients for Q$_6$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD6.pdf}
+\label{fig.bbc.qc6}
+\caption{Non-normalized coefficients for Q$_8$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD7.pdf}
+\label{fig.bbc.qc7}
+\caption{Non-normalized coefficients for Q$_{10}$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{fig_eventplane/QC_454777_ORD8.pdf}
+\label{fig.bbc.qc8}
+\caption{Non-normalized coefficients for Q$_{12}$ vector centering for BBC Run 454777 as a function of centrality and vertex bin. The top panels correspond to subevent 0 and the bottom panels correspond to subevent 1. The nominal vertex z=0 sits at around bin index 20 in the X axis.}
+\end{figure}
+
+The south arm (Au-going direction) was used for the symmetry angle determination.
+The BBC south arm was subdivided into two subevents as shown in figure \ref{fig.bbcgeo}.
+The calibration of the adc signal for the BBC is loaded from the general database code AAAAA.
+On the other hand in order to eliminate potential biases for the BBC Q vectors the procedure described in section 2.
+The calibration was done in bins of centrality and vertex; and was performed for every run of the entire used dataset.
+
+Figure \ref{fig.bbc.qc1} shows the matrix of non-normalized {\bf centering coefficients} of Q$_2$ for one particular run of run 16 dAu 200 GeV corresponding to each subdivision of the BBC south. The X axis correspond to "Vertex Bin Index", where Z$_{vtx}=0$ is at idx=20 and spanning $dZ=1$ cm per bin. The Y axis corresponds to centrality. The Z axis is the average Qx (or Qy) which is denoted in color code. The matrix presents a high asymmetry with respect to Z$_{vtx}=0$  due to the collision asymmetric configuration and nominal position of the real interaction. The matrix for all other harmonics from 1 to 12 are displayed in figures from \ref{fig.bbc.qc0} to \ref{fig.bbc.qc8}.
+
+Figure \ref{fig.bbc123} shows the {\bf symmetry angle} distribution for all events recorded in centrality 0-5 \%.
+Each plot shows the effects of the calibration step by step from centering to flattening as discussed in the previous section in different colors.
+The plots are arranged in a matrix for which the first two columns correspond to different sub events and the third column to the full event.
+The first row of plots corresponds to the first order symmetry angle; the second column corresponds to the second order symmetry angle; while the third row, to the third order symmetry angle.
+The distributions in blue are the raw distribution. As one can see centering diminishes most of the non-uniformities down to bellow 10\% in flatness. The next being scaling, down to below 3\%. This first stages take into account the acceptance and displacement of the bbc with respect of the event collision vertex.
+Flattening being the last stage which leaves it to much below 1\% depending on the Q vector order.
+
+\begin{figure}
 \includegraphics[width=\textwidth]{fig_eventplane/BBC123.pdf}
+\label{fig.bbc123}
+\caption{Symmetry angle measured by BBC-south detector for 0-5\% centrality events in d+Au collisions at 200 GeV. Order 1st, 2nd and 3rd}
+\end{figure}
+\begin{figure}
+\includegraphics[width=\textwidth]{fig_eventplane/BBC456.pdf}
+\label{fig.bbc456}
+\caption{Symmetry angle measured by BBC-south detector for 0-5\% centrality events in d+Au collisions at 200 GeV. Order 4th, 5th and 6th}
 \end{figure}
 
 \bibliography{references}{}
