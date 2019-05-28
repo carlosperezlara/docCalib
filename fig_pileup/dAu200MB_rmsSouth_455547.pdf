@@ -975,5 +975,5 @@
    hBBCTimeRMS_S0->GetZaxis()->SetLabelSize(0.035);
    hBBCTimeRMS_S0->GetZaxis()->SetTitleSize(0.035);
    hBBCTimeRMS_S0->GetZaxis()->SetTitleFont(42);
-   hBBCTimeRMS_S0->Draw("");
+   hBBCTimeRMS_S0->Draw("pdf");
 }
